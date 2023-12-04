@@ -498,7 +498,9 @@ iface eth0 inet static
 
 Inilah pengaturan subnet awal yang akan kita gunakan untuk penggabungan subnet.
 
-![topo](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/4e995f91-f509-4894-934e-60b2f03391be)
+##### Kondisi Subnet Awal :
+
+![subnet](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/bf812727-9c59-422d-ab9d-25919d703029)
 
 | Nama Subnet | Rute                                            | Jumlah IP | Netmask |
 | ----------- | ----------------------------------------------- | --------- | ------- |
