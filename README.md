@@ -532,30 +532,46 @@ Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/f03844d8-2f37-4dd7-86f5-0ae57aa26999)
 
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/ec03903e-c6f8-479f-82fc-2613e73ee274)
+
 #### Penggabungan Kedua
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/47f34fb4-7de9-4861-82a1-4c2d0cf11bf3)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/bd942b33-ffc1-4020-ad7d-45ff7077a3a2)
 
 #### Penggabungan Ketiga
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/4e14102e-ad7e-43c6-9f6a-30a2fbe34a7d)
 
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/388dbcf1-e078-4bb0-831b-4e2d179c8b36)
+
 #### Penggabungan Keempat
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/3a8c886c-10db-4a51-971e-00cc27a12b34)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/bed2f84e-57bd-4728-be64-4aeff3f1c392)
 
 #### Penggabungan Kelima
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/5f329d8d-3956-4116-bbfe-c996b41bf35d)
 
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/7ead3e2a-4c67-45c2-999b-86745d4dafd3)
+
 #### Penggabungan Keenam
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/92c4f435-0132-44c4-8543-05484a95165c)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/95064f7f-d913-43d5-b8fe-f1566a10cf9c)
 
 #### Penggabungan Ketujuh
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/cca8d101-8ba8-4c54-8578-0c65d6ab22dd)
 
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/41100885-5849-4ed1-a6a5-0c50be9e0b82)
+
 #### Penggabungan Kedelapan
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/04c9d4b4-9fc9-4a5b-b69f-07f90054f104)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/d74c8932-00f7-4e56-b668-e2ac14f0f074)
