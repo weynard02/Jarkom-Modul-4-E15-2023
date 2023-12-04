@@ -107,5 +107,388 @@ Dari pohon itu, kita mendapatkan pembagian IP sebagai berikut
 
 4. Setup GNS3
    
-Setelah pembagian IP sudah siap, kita dapat melakukan konfigurasi pada GNS3
+Setelah pembagian IP sudah siap, kita dapat melakukan konfigurasi pada GNS3. 
+
+Pertama, kita membuat topologi pada GNS3
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/801c7aad-8e70-43a9-9908-15effe861f60)
+
+Dengan pembagian IP subnet yang sudah dilakukan, kita dapat melakukan assign IP pada interface (Network Configuration) sesuai pada pembagian di atas
+Aura
+```
+auto eth0
+iface eth0 inet dhcp
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.13
+	netmask 255.255.255.252
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+	address 10.44.0.9
+	netmask 255.255.255.252
+
+# Static config for eth3
+auto eth3
+iface eth3 inet static
+	address 10.44.0.21
+	netmask 255.255.255.252
+```
+
+Frieren
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.10
+	netmask 255.255.255.252
+	gateway 10.44.0.9
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.5
+	netmask 255.255.255.252
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+	address 10.44.0.65
+	netmask 255.255.255.224
+```
+
+Flamme
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.6
+	netmask 255.255.255.252
+	gateway 10.44.0.5
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.1
+	netmask 255.255.255.252
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+	address 10.44.0.17
+	netmask 255.255.255.252
+
+# Static config for eth3
+auto eth3
+iface eth3 inet static
+	address 10.44.8.1
+	netmask 255.255.252.0
+```
+
+LakeKorridor
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.66
+	netmask 255.255.255.224
+	gateway 10.44.0.65
+```
+
+Fern
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.2
+	netmask 255.255.255.252
+	gateway 10.44.0.1
+
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.24.1
+	netmask 255.255.248.0
+```
+
+Himmel
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.18
+	netmask 255.255.255.252
+	gateway 10.44.0.17
+
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.49
+	netmask 255.255.255.248
+```
+
+LaubHills
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.24.2
+	netmask 255.255.248.0
+	gateway 10.44.24.1
+```
+
+RohrRoad
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.8.2
+	netmask 255.255.252.0
+	gateway 10.44.8.1
+```
+
+SchwerMountains
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.50
+	netmask 255.255.255.248
+	gateway 10.44.0.49
+```
+
+Denken
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.14
+	netmask 255.255.255.252
+	gateway 10.44.0.13
+
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.1.1
+	netmask 255.255.255.0
+```
+
+RoyalCapital
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.1.2
+	netmask 255.255.255.0
+	gateway 10.44.1.1
+```
+
+Eisen
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.22
+	netmask 255.255.255.252
+	gateway 10.44.0.21
+
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.33
+	netmask 255.255.255.252
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+	address 10.44.0.37
+	netmask 255.255.255.252
+
+# Static config for eth3
+auto eth3
+iface eth3 inet static
+	address 10.44.0.25
+	netmask 255.255.255.252
+
+# Static config for eth4
+auto eth4
+iface eth4 inet static
+	address 10.44.0.41
+	netmask 255.255.255.248
+```
+
+Richter
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.42
+	netmask 255.255.255.248
+	gateway 10.44.0.41
+```
+
+Revolte
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.43
+	netmask 255.255.255.248
+	gateway 10.44.0.41
+```
+
+Stark
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.26
+	netmask 255.255.255.252
+	gateway 10.44.0.25
+```
+
+Linie
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.34
+	netmask 255.255.255.0
+	gateway 10.44.0.33
+
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.29
+	netmask 255.255.255.252
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+	address 10.44.4.1
+	netmask 255.255.254.0
+```
+
+GranzChannel
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.4.2
+	netmask 255.255.254.0
+	gateway 10.44.4.1
+```
+
+Lawine
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.30
+	netmask 255.255.255.252
+	gateway 10.44.0.29
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.0.129
+	netmask 255.255.255.192
+```
+
+BredtRegion
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.131
+	netmask 255.255.255.192
+	gateway 10.44.0.129
+```
+
+Heiter
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.130
+	netmask 255.255.255.192
+	gateway 10.44.0.129
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.16.1
+	netmask 255.255.252.0
+```
+
+Sein
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.16.2
+	netmask 255.255.252.0
+	gateway 10.44.16.1
+```
+
+RiegelCanyon
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.16.3
+	netmask 255.255.252.0
+	gateway 10.44.16.1
+```
+
+Lugner
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.0.38
+	netmask 255.255.255.252
+	gateway 10.44.0.37
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+	address 10.44.12.1
+	netmask 255.255.252.0
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+	address 10.44.2.1
+	netmask 255.255.255.0
+```
+
+TurkRegion
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address v
+	netmask 255.255.252.0
+	gateway 10.44.12.1
+```
+
+GrobeForest
+```
+auto eth0
+iface eth0 inet static
+	address 10.44.2.2
+	netmask 255.255.255.0
+    gateway 10.44.2.1
+```
+
+5. Routing
 ## CIDR
