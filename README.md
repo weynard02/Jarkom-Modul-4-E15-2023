@@ -494,9 +494,10 @@ iface eth0 inet static
    
 ## CIDR
 
-### Penggabungan IP
+### Penggabungan Subnet
 
-Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
+Inilah pengaturan subnet awal yang akan kita gunakan untuk penggabungan subnet.
+
 ![topo](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/4e995f91-f509-4894-934e-60b2f03391be)
 
 | Nama Subnet | Rute                                            | Jumlah IP | Netmask |
@@ -524,7 +525,7 @@ Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
 | A21         | Lugner-Switch9-GrobeForest                      | 251       | /24     |
 | Total       |                                                 | 4255      | /19     |
 
-#### Posisi Awal (Dalam bentuk tree)
+#### Posisi Awal Subnet (Dalam bentuk tree)
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/3e888bcb-917a-4585-9515-401842001074)
 
@@ -575,3 +576,15 @@ Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/04c9d4b4-9fc9-4a5b-b69f-07f90054f104)
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/d74c8932-00f7-4e56-b668-e2ac14f0f074)
+
+### Tree
+
+Setelah proses penggabungan subnet selesai, langkah selanjutnya adalah membagi alamat IP dengan menggunakan struktur pohon pada setiap kelompok yang telah dibentuk sebelumnya, seperti pada gambar di bawah ini.
+
+![E15-CIDR-Tree](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/6620b4ce-b563-401c-a199-6e849e85257b)
+
+### Pembagian IP
+
+Inilah output dari pembagian alamat IP berdasarkan struktur pohon yang sudah dibuat sebelumnya.
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/0cce44e5-ac00-4821-91a3-469c4f8544ea)
