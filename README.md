@@ -632,4 +632,5 @@ Inilah output dari pembagian alamat IP berdasarkan struktur pohon yang sudah dib
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/f7ffdc05-2d64-45bf-8268-6ca95a3cb3cb)
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/48c9e649-c16a-43aa-a923-aeb43010eac6)
 
+https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/568e4ac2-8a76-4880-9797-272b6c71bb10
 
