@@ -526,36 +526,36 @@ Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
 
 #### Posisi Awal (Dalam bentuk tree)
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/c7fd1453-3d2b-474d-af55-274bb13a8a61)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/3e888bcb-917a-4585-9515-401842001074)
 
 #### Penggabungan Pertama
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/284c959c-416d-4ca8-a0e1-c22acb8fce49)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/f03844d8-2f37-4dd7-86f5-0ae57aa26999)
 
 #### Penggabungan Kedua
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/6cecaa24-ce56-4ca9-95e5-9fa832b38025)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/47f34fb4-7de9-4861-82a1-4c2d0cf11bf3)
 
 #### Penggabungan Ketiga
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/74aa1743-ae44-4f64-afe6-e9a96a4e3907)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/4e14102e-ad7e-43c6-9f6a-30a2fbe34a7d)
 
 #### Penggabungan Keempat
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/1fa2e84d-d13c-4ccf-816a-f84566b1680e)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/3a8c886c-10db-4a51-971e-00cc27a12b34)
 
 #### Penggabungan Kelima
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/5e485a31-5d90-4617-b731-87839419dd3f)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/5f329d8d-3956-4116-bbfe-c996b41bf35d)
 
 #### Penggabungan Keenam
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/65069af3-3447-4440-b5eb-ccca62b59e77)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/92c4f435-0132-44c4-8543-05484a95165c)
 
 #### Penggabungan Ketujuh
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/c49db125-d246-4d1f-9dc4-90b75354f18c)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/cca8d101-8ba8-4c54-8578-0c65d6ab22dd)
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/6fbaef6a-89ac-4389-bb75-e03aa3cf859d)
+#### Penggabungan Kedelapan
 
-![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/15b1fffc-a941-4021-b08c-b918214f8d45)
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/04c9d4b4-9fc9-4a5b-b69f-07f90054f104)
