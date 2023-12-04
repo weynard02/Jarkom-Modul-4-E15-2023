@@ -491,4 +491,39 @@ iface eth0 inet static
 ```
 
 5. Routing
+   
 ## CIDR
+
+### Penggabungan IP
+
+Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
+![topo](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/4e995f91-f509-4894-934e-60b2f03391be)
+
+| Nama Subnet | Rute                                            | Jumlah IP | Netmask |
+| ----------- | ----------------------------------------------- | --------- | ------- |
+| A1          | Fern-Switch4-LaubHills-Switch4-AppetitRegion    | 1023      | /21     |
+| A2          | Frieren-Switch3-LakeKorridor                    | 25        | /27     |
+| A3          | Denken-Switch2-RoyalCapital-Switch2-WilleRegion | 127       | /24     |
+| A4          | Flamme-Switch5-RohrRoad                         | 1001      | /22     |
+| A5          | Flamme-Fern                                     | 2         | /30     |
+| A6          | Frieren-Flamme                                  | 2         | /30     |
+| A7          | Aura-Frieren                                    | 2         | /30     |
+| A8          | Aura-Denken                                     | 2         | /30     |
+| A9          | Flamme-Himmel                                   | 2         | /30     |
+| A10         | Eisen-Switch1-Richter-Switch1-Revolte           | 3         | /29     |
+| A11         | Aura-Eisen                                      | 2         | /30     |
+| A12         | Eisen-Switch0-Stark                             | 2         | /30     |
+| A13         | Himmel-Switch6-SchwerMountains                  | 6         | /29     |
+| A14         | Lawine-Switch7-BredRegion-Switch7-Heiter        | 31        | /26     |
+| A15         | Linie-Lawine                                    | 2         | /30     |
+| A16         | Eisen-Linie                                     | 2         | /30     |
+| A17         | Eisen-Lugner                                    | 2         | /30     |
+| A18         | Lugner-Switch10-TurkRegion                      | 1001      | /22     |
+| A19         | Heiter-Switch8-Sein-Switch8-RiegelCanyon        | 512       | /22     |
+| A20         | Linie-Switch11-GranzChannel                     | 255       | /23     |
+| A21         | Lugner-Switch9-GrobeForest                      | 251       | /24     |
+| Total       |                                                 | 4255      | /19     |
+
+#### Penggabungan Pertama (B)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/c7fd1453-3d2b-474d-af55-274bb13a8a61)
