@@ -596,22 +596,36 @@ Inilah output dari pembagian alamat IP berdasarkan struktur pohon yang sudah dib
 #### Router Aura
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/3ab80a79-baa5-4990-905c-a4f4b7da3ecc)
-
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/ea037059-7b8a-4215-9b06-bc8414ec68c2)
-
 #### Router Frieren
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/0aa23fcb-4712-4368-b211-2b5ddaf68b4c)
-
 #### Router Flamme
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/0af51465-eb3c-4857-910b-d8fcdd15e935)
-
 #### Router Fern
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/45e6cdce-d4ec-4f85-9b31-62df1fd03e17)
-
 #### Router Himmel
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/fab88fd4-8c14-4556-bd72-735cb11c95cd)
+#### Router Denken
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/08fbb820-0120-40dd-85bb-d41d88eb66e3)
+#### Router Eisen
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/5369fc72-9c14-40e6-a68a-d42767e05621)
+#### Router Lugner
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/8b0bf0ca-2e92-4571-a266-91dc2b86a1e5)
+#### Router Linie 
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/d7e1d164-3000-4985-984a-92b8d890913a)
+#### Router Lawine
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/1ad94df3-0f35-4800-b67f-715c88bcba6a)
+#### Router Heiter
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/abdb95eb-32b2-4c4d-aab8-81a543d6af85)
+
 
