@@ -524,6 +524,38 @@ Inilah pengaturan awal yang akan kita gunakan untuk menyatukan alamat IP.
 | A21         | Lugner-Switch9-GrobeForest                      | 251       | /24     |
 | Total       |                                                 | 4255      | /19     |
 
-#### Penggabungan Pertama (B)
+#### Posisi Awal (Dalam bentuk tree)
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/c7fd1453-3d2b-474d-af55-274bb13a8a61)
+
+#### Penggabungan Pertama
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/284c959c-416d-4ca8-a0e1-c22acb8fce49)
+
+#### Penggabungan Kedua
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/6cecaa24-ce56-4ca9-95e5-9fa832b38025)
+
+#### Penggabungan Ketiga
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/74aa1743-ae44-4f64-afe6-e9a96a4e3907)
+
+#### Penggabungan Keempat
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/1fa2e84d-d13c-4ccf-816a-f84566b1680e)
+
+#### Penggabungan Kelima
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/5e485a31-5d90-4617-b731-87839419dd3f)
+
+#### Penggabungan Keenam
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/65069af3-3447-4440-b5eb-ccca62b59e77)
+
+#### Penggabungan Ketujuh
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/c49db125-d246-4d1f-9dc4-90b75354f18c)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/6fbaef6a-89ac-4389-bb75-e03aa3cf859d)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/15b1fffc-a941-4021-b08c-b918214f8d45)
