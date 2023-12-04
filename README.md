@@ -590,3 +590,28 @@ Setelah proses penggabungan subnet selesai, langkah selanjutnya adalah membagi a
 Inilah output dari pembagian alamat IP berdasarkan struktur pohon yang sudah dibuat sebelumnya.
 
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/0cce44e5-ac00-4821-91a3-469c4f8544ea)
+
+### Routing 
+
+#### Router Aura
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/3ab80a79-baa5-4990-905c-a4f4b7da3ecc)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/ea037059-7b8a-4215-9b06-bc8414ec68c2)
+
+#### Router Frieren
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/0aa23fcb-4712-4368-b211-2b5ddaf68b4c)
+
+#### Router Flamme
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/0af51465-eb3c-4857-910b-d8fcdd15e935)
+
+#### Router Fern
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/45e6cdce-d4ec-4f85-9b31-62df1fd03e17)
+
+#### Router Himmel
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/fab88fd4-8c14-4556-bd72-735cb11c95cd)
+
