@@ -141,6 +141,7 @@ Pertama, kita membuat topologi pada GNS3
 ![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/801c7aad-8e70-43a9-9908-15effe861f60)
 
 Dengan pembagian IP subnet yang sudah dilakukan, kita dapat melakukan assign IP pada interface (Network Configuration) sesuai pada pembagian di atas
+
 Aura
 ```
 auto eth0
@@ -269,6 +270,16 @@ iface eth0 inet static
 	gateway 10.44.24.1
 ```
 
+AppetitRegion
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.24.3
+	netmask 255.255.248.0
+	gateway 10.44.24.1
+```
+
 RohrRoad
 ```
 # Static config for eth0
@@ -312,6 +323,16 @@ RoyalCapital
 auto eth0
 iface eth0 inet static
 	address 10.44.1.2
+	netmask 255.255.255.0
+	gateway 10.44.1.1
+```
+
+WilleRegion
+```
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+	address 10.44.1.3
 	netmask 255.255.255.0
 	gateway 10.44.1.1
 ```
