@@ -611,6 +611,39 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.129
 
 ### Result
 
+Testing dilakukan dengan melakukan ping ke IP tujuan. Berikut beberapa testing yang dilakukan
+
+- AppetitRegion(625 Host) ping ke GranzChannel(254 Host)
+  
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/b6073579-2588-498c-be2e-2817150bd696)
+
+- RiegelCanyon(510 Host) ping ke Denken
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/d2fbb2c5-94d5-4701-a676-3bc5972af3cf)
+
+- Fern ping ke TurkRegion(1000host)
+
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/518a07d5-e725-4e0c-bf1a-4c77d26789f9)
+
+- Himmel ping ke Linie
+  
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/52c513de-d305-47a9-805f-65248715a955)
+
+- RoyalCapital(63 Host) ping ke Sein
+  
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/af0bab77-d09e-45c5-bb6f-388af7f6fbaf)
+
+- Sein ping ke Ricther
+  
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/41823ba3-d0c1-4063-8b25-6872b70d8bd9)
+
+
+- Heiter ping ke Stark
+  
+![image](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/2781bcaa-f9be-4268-875f-b190a7da3a67)
+
+https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/8ae7dff7-5d16-4d8e-8028-6cb31d32567f
+
 ## CIDR
 
 ### Penggabungan Subnet
