@@ -60,7 +60,7 @@ Penjelasan:
 - Jumlah IP didapatkan melalui jumlah host + router
 - Netmask didapatkan melalui netmask mana yang dapat menampung jumlah IP tersebut
 
-Kemudian kita untuk mendapatkan pembagian IP, kita akan menggunakan dua metode tersebut
+Kemudian untuk mendapatkan pembagian IP, kita akan menggunakan dua metode tersebut
 
 ## VLSM
 VLSM (Variable Length Subnet Masking) merupakan teknik di mana netmask akan diberikan sesuai kebutuhan jumlah alamat IP dari subnet tersebut. Jadi besar netmask disesuaikan dengan host yang membutuhkan alamat IP.
@@ -68,6 +68,33 @@ VLSM (Variable Length Subnet Masking) merupakan teknik di mana netmask akan dibe
 1. Melakukan pembagian rute
    
 Sebelumnya, kita sudah melakukan pembagian rute dari topologi di atas. Kita mendapatkan total kebutuhan ada 4255 IP yang di mana netmask yang diperlukan adalah /19 (max = 8190)
+
+![subnet](https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/bf812727-9c59-422d-ab9d-25919d703029)
+
+| Nama Subnet | Rute                                            | Jumlah IP | Netmask |
+| ----------- | ----------------------------------------------- | --------- | ------- |
+| A1          | Fern-Switch4-LaubHills-Switch4-AppetitRegion    | 1023      | /21     |
+| A2          | Frieren-Switch3-LakeKorridor                    | 25        | /27     |
+| A3          | Denken-Switch2-RoyalCapital-Switch2-WilleRegion | 127       | /24     |
+| A4          | Flamme-Switch5-RohrRoad                         | 1001      | /22     |
+| A5          | Flamme-Fern                                     | 2         | /30     |
+| A6          | Frieren-Flamme                                  | 2         | /30     |
+| A7          | Aura-Frieren                                    | 2         | /30     |
+| A8          | Aura-Denken                                     | 2         | /30     |
+| A9          | Flamme-Himmel                                   | 2         | /30     |
+| A10         | Eisen-Switch1-Richter-Switch1-Revolte           | 3         | /29     |
+| A11         | Aura-Eisen                                      | 2         | /30     |
+| A12         | Eisen-Switch0-Stark                             | 2         | /30     |
+| A13         | Himmel-Switch6-SchwerMountains                  | 6         | /29     |
+| A14         | Lawine-Switch7-BredRegion-Switch7-Heiter        | 31        | /26     |
+| A15         | Linie-Lawine                                    | 2         | /30     |
+| A16         | Eisen-Linie                                     | 2         | /30     |
+| A17         | Eisen-Lugner                                    | 2         | /30     |
+| A18         | Lugner-Switch10-TurkRegion                      | 1001      | /22     |
+| A19         | Heiter-Switch8-Sein-Switch8-RiegelCanyon        | 512       | /22     |
+| A20         | Linie-Switch11-GranzChannel                     | 255       | /23     |
+| A21         | Lugner-Switch9-GrobeForest                      | 251       | /24     |
+| Total       |                                                 | 4255      | /19
 
 2. Pembagian IP
  
@@ -491,7 +518,97 @@ iface eth0 inet static
 ```
 
 5. Routing
-   
+Routing dilakukan agar router dapat mengenal NID-NID melalui tetangga routernya. Berikut merupakan konfigurasi routingnya
+Aura
+```
+route add -net 10.44.24.0 netmask 255.255.248.0 gw 10.44.0.10
+route add -net 10.44.0.64 netmask 255.255.255.224 gw 10.44.0.10
+route add -net 10.44.8.0 netmask 255.255.252.0 gw 10.44.0.10
+route add -net 10.44.0.48 netmask 255.255.255.248 gw 10.44.0.10
+route add -net 10.44.0.0 netmask 255.255.255.252 gw 10.44.0.10
+route add -net 10.44.0.4 netmask 255.255.255.252 gw 10.44.0.10
+route add -net 10.44.0.16 netmask 255.255.255.252 gw 10.44.0.10
+route add -net 10.44.1.0 netmask 255.255.255.0 gw 10.44.0.14
+route add -net 10.44.0.40 netmask 255.255.255.248 gw 10.44.0.22
+route add -net 10.44.0.24 netmask 255.255.255.252 gw 10.44.0.22
+route add -net 10.44.16.0 netmask 255.255.252.0 gw 10.44.0.22
+route add -net 10.44.0.128 netmask 255.255.255.192 gw 10.44.0.22
+route add -net 10.44.0.28 netmask 255.255.255.252 gw 10.44.0.22
+route add -net 10.44.0.32 netmask 255.255.255.252 gw 10.44.0.22
+route add -net 10.44.4.0 netmask 255.255.254.0 gw 10.44.0.22
+route add -net 10.44.0.36 netmask 255.255.255.252 gw 10.44.0.22
+route add -net 10.44.12.0 netmask 255.255.252.0 gw 10.44.0.22
+route add -net 10.44.2.0 netmask 255.255.255.0 gw 10.44.0.22
+```
+
+Frieren
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.9
+route add -net 10.44.0.0 netmask 255.255.255.252 gw 10.44.0.6
+route add -net 10.44.0.16 netmask 255.255.255.252 gw 10.44.0.6
+route add -net 10.44.24.0 netmask 255.255.248.0 gw 10.44.0.6
+route add -net 10.44.8.0 netmask 255.255.252.0 gw 10.44.0.6
+route add -net 10.44.0.48 netmask 255.255.255.248 gw 10.44.0.6
+```
+
+Flamme
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.5
+route add -net 10.44.24.0 netmask 255.255.248.0 gw 10.44.0.2
+route add -net 10.44.0.48 netmask 255.255.255.248 gw 10.44.0.18
+```
+
+Fern
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.1
+```
+
+Himmel
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.17
+```
+
+Denken
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.13
+```
+
+Eisen
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.21
+route add -net 10.44.16.0 netmask 255.255.252.0 gw 10.44.0.34
+route add -net 10.44.0.128 netmask 255.255.255.192 gw 10.44.0.34
+route add -net 10.44.0.28 netmask 255.255.255.252 gw 10.44.0.34
+route add -net 10.44.4.0 netmask 255.255.254.0 gw 10.44.0.34
+route add -net 10.44.12.0 netmask 255.255.252.0 gw 10.44.0.38
+route add -net 10.44.2.0 netmask 255.255.255.0 gw 10.44.0.38
+```
+
+Lugner
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.37
+```
+
+Linie
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.33
+route add -net 10.44.0.128 netmask 255.255.255.192 gw 10.44.0.30
+route add -net 10.44.16.0 netmask 255.255.252.0 gw 10.44.0.30
+```
+
+Lawien
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.29
+route add -net 10.44.16.0 netmask 255.255.252.0 gw 10.44.0.130
+```
+
+Heiter
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.44.0.129
+```
+
+### Result
+
 ## CIDR
 
 ### Penggabungan Subnet
