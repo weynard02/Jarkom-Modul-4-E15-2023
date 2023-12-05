@@ -214,6 +214,7 @@ auto eth3
 iface eth3 inet static
 	address 10.44.8.1
 	netmask 255.255.252.0
+
 ```
 
 LakeKorridor
@@ -258,6 +259,8 @@ auto eth1
 iface eth1 inet static
 	address 10.44.0.49
 	netmask 255.255.255.248
+
+
 ```
 
 LaubHills
@@ -278,6 +281,7 @@ iface eth0 inet static
 	address 10.44.24.3
 	netmask 255.255.248.0
 	gateway 10.44.24.1
+
 ```
 
 RohrRoad
@@ -400,6 +404,7 @@ iface eth0 inet static
 	address 10.44.0.26
 	netmask 255.255.255.252
 	gateway 10.44.0.25
+
 ```
 
 Linie
@@ -433,6 +438,7 @@ iface eth0 inet static
 	address 10.44.4.2
 	netmask 255.255.254.0
 	gateway 10.44.4.1
+
 ```
 
 Lawine
@@ -475,6 +481,7 @@ auto eth1
 iface eth1 inet static
 	address 10.44.16.1
 	netmask 255.255.252.0
+
 ```
 
 Sein
@@ -535,7 +542,7 @@ auto eth0
 iface eth0 inet static
 	address 10.44.2.2
 	netmask 255.255.255.0
-    	gateway 10.44.2.1
+        gateway 10.44.2.1
 ```
 
 5. Routing
