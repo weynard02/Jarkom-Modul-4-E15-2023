@@ -646,6 +646,10 @@ https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/90879937/8ae7dff7-5d
 
 ## CIDR
 
+CIDR, atau Classless Inter-Domain Routing, adalah metode yang digunakan dalam penanganan alamat IP untuk meningkatkan efisiensi alokasi ruang alamat dan rute di Internet. Sistem tradisional pengalamatan IP mengandalkan kelas, seperti Kelas A, B, dan C, yang seringkali menyebabkan penggunaan ruang alamat yang tidak efisien. CIDR, diperkenalkan pada tahun 1990-an, memungkinkan pendekatan yang lebih fleksibel dan scalable. Dalam CIDR, alamat IP tidak lagi terikat secara ketat pada kelas yang telah ditentukan sebelumnya; sebaliknya, notasi panjang awalan digunakan untuk menunjukkan jumlah bit yang signifikan dalam bagian jaringan alamat. Hal ini memungkinkan alokasi alamat IP yang lebih terperinci, mengurangi pemborosan alamat dan memudahkan alokasi berdasarkan kebutuhan jaringan yang sebenarnya.
+
+Pengaruh CIDR tidak hanya terbatas pada alokasi alamat yang efisien. CIDR juga memainkan peran penting dalam menyederhanakan pengalihan di Internet. Dengan CIDR, tabel pengalihan dapat diringkas lebih efektif, mengurangi ukuran dan kompleksitas tabel pengalihan di seluruh Internet global. Ini berkontribusi pada peningkatan efisiensi pengalihan, penerusan paket yang lebih cepat, dan meningkatkan skalabilitas infrastruktur Internet secara keseluruhan. Pada intinya, CIDR telah menjadi komponen fundamental dari jaringan IP modern, memberikan sistem yang lebih gesit dan efisien dalam mengelola alamat IP dan pengalihan secara global.
+
 ### Penggabungan Subnet
 
 Inilah pengaturan subnet awal yang akan kita gunakan untuk penggabungan subnet.
