@@ -387,7 +387,7 @@ Linie
 auto eth0
 iface eth0 inet static
 	address 10.44.0.34
-	netmask 255.255.255.0
+	netmask 255.255.255.252
 	gateway 10.44.0.33
 
 
@@ -503,7 +503,7 @@ TurkRegion
 # Static config for eth0
 auto eth0
 iface eth0 inet static
-	address v
+	address 10.44.12.2
 	netmask 255.255.252.0
 	gateway 10.44.12.1
 ```
@@ -514,7 +514,7 @@ auto eth0
 iface eth0 inet static
 	address 10.44.2.2
 	netmask 255.255.255.0
-    gateway 10.44.2.1
+    	gateway 10.44.2.1
 ```
 
 5. Routing
