@@ -518,7 +518,9 @@ iface eth0 inet static
 ```
 
 5. Routing
+   
 Routing dilakukan agar router dapat mengenal NID-NID melalui tetangga routernya. Berikut merupakan konfigurasi routingnya
+
 Aura
 ```
 route add -net 10.44.24.0 netmask 255.255.248.0 gw 10.44.0.10
