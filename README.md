@@ -816,3 +816,6 @@ Inilah output dari pembagian alamat IP berdasarkan struktur pohon yang sudah dib
 
 https://github.com/weynard02/Jarkom-Modul-4-E15-2023/assets/106955551/568e4ac2-8a76-4880-9797-272b6c71bb10
 
+## Kendala
+
+Mengalami kesulitan dan membutuhkan waktu lama untuk melakukan perhitungan CIDR. Seiring berjalan waktu, semakin memahami perhitungan tersebut.
